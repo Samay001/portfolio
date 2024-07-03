@@ -1,0 +1,210 @@
+/* @font-face {
+  font-family: "CustomFont1";
+  src: url("../../assets/fonts/custom-font1.ttf") format("truetype");
+  font-weight: bolder;
+} */
+
+@font-face {
+  font-family: "CustomFont2";
+  src: url("../../assets/fonts/Arges_bold.ttf") format("truetype");
+  font-weight:bolder;
+}
+
+@font-face {
+  font-family: "CustomFont3";
+  src: url("../../assets/fonts/custom-font3.otf") format("opentype");
+  font-weight: bolder;
+}
+
+body,
+html {
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.img-main {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.img-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.img-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at center,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  z-index: 2;
+}
+
+.heading-container {
+  z-index: 2;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;  
+}
+
+.text-block {
+  margin: 10px;
+}
+
+.row h1,
+.row h3 {
+  margin: 0;
+  font-family: "CustomFont2", sans-serif;
+  color: #bfea88;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.row h1 {
+  letter-spacing: 1px;
+  font-size: 7rem;
+  font-weight: bolder;
+}
+
+.row h3 {
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+.bio h1 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+.bio {
+  padding: 2rem;
+}
+
+.bio h3 {
+  font-size: 1rem;
+}
+
+.name-text {
+  margin: 2rem 0;
+}
+
+.name-text h1 {
+  font-size: 6rem;
+  letter-spacing: 4px;
+  margin: 0;
+  font-family: "CustomFont2", sans-serif;
+  color: #bfea88;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.name-text h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+  font-family: "CustomFont3", sans-serif;
+  color: #bfea88;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1200px) {
+  .row h1 {
+    font-size: 5rem;
+  }
+
+  .row h3 {
+    font-size: 1.25rem;
+  }
+
+  .name-text h1 {
+    font-size: 5rem;
+  }
+
+  .name-text h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .row h1 {
+    font-size: 3rem;
+  }
+
+  .row h3 {
+    font-size: 1rem;
+  }
+
+  .name-text h1 {
+    font-size: 4rem;
+  }
+
+  .name-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .bio h1 {
+    font-size: 1.5rem;
+  }
+
+  .bio h3 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .row h1 {
+    font-size: 2rem;
+  }
+
+  .row h3 {
+    font-size: 0.75rem;
+  }
+
+  .name-text h1 {
+    font-size: 3rem;
+  }
+
+  .name-text h3 {
+    font-size: 1.25rem;
+  }
+
+  .bio h1 {
+    font-size: 1.25rem;
+  }
+
+  .bio h3 {
+    font-size: 0.5rem;
+  }
+}

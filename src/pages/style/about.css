@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "CustomFont2";
+  src: url("../../assets/fonts/Arges_bold.ttf") format("truetype");
+  font-weight:bolder;
+}
+
+
+  @font-face {
+    font-family: "CustomFont3";
+    src: url("../../assets/fonts/custom-font3.otf") format("opentype");
+    font-weight: bolder;
+  }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #192928;
+    color:#BFEA88;
+    font-family: "CustomFont2";
+}
+
+.text-box{
+    text-align: center;
+    text-wrap:wrap;
+    background-color: #192928 ;
+}
+
+.text-box h1{
+    font-size: 15vw;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.text-box h2{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.text-box h4  {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
