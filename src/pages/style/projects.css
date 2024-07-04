@@ -1,0 +1,28 @@
+.container-projects {
+  width: 100%;
+  height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  background-color: #bfea88;
+  color: #192928;
+  margin-top: 0;
+  
+}
+
+
+.pro-box{
+    border-bottom: 2px solid #192928;
+    padding: 2.5rem;
+}
+
+.pro-box h1{
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+    margin-top:0;
+    font-family: "CustomFont1", sans-serif;
+    border-bottom: 1px solid #192928;
+}

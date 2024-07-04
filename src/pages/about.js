@@ -3,7 +3,7 @@ import './style/about.css'
 
 const about = () => {
   return (
-    <div className='container'>
+    <div className='container-about'>
       <div className='text-box'>
         <h1>INDIAN-BASED ART DIRECTOR , DESIGNER AND DEVELOPER.</h1>
         <h2>TELLING MEANING FULL STORIES THAT NEED TO BE TOLD (BY HUMAN,NOT BY AI)</h2>

@@ -2,6 +2,10 @@ import React from "react";
 import img from "../assets/images/main3.jpeg";
 import "./style/home.css";
 import About from "./about";
+import Work from "./work";
+import Projects from "./projects";
+import Addon from "./addon";
+import Contact from "./contact";
 
 const Home = () => {
   return (
@@ -44,6 +48,10 @@ const Home = () => {
         </div>
       </div>
       <About />
+      <Work />
+      <Projects />
+      <Addon />
+      <Contact />
     </>
   );
 };
