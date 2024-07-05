@@ -11,11 +11,11 @@ const Contact = () => {
           <h1>Let's Do This.</h1>
         </div>
         <div className='contact-form'>
-          <form>
+          <form action='https://formsubmit.co/samayrathod1@gmail.com' method='POST'>
             <input type='text' placeholder='Name' className='form-input' />
             <input type='email' placeholder='Email' className='form-input' />
             <textarea placeholder='Message' className='form-textarea'></textarea>
-            <button type='submit' className='form-button'>Send</button>
+            <button type='submit' className='form-button'>SEND</button>
           </form>
         </div>
       </div>
