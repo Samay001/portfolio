@@ -1,6 +1,6 @@
-import React from 'react'
-import './style/contact.css'
-import img from '../assets/images/contact-img.jpg'
+import React from 'react';
+import './style/contact.css';
+import img from '../assets/images/contact-img.jpg';
 
 const Contact = () => {
   return (
@@ -26,4 +26,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;

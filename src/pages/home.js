@@ -7,6 +7,7 @@ import Projects from "./projects";
 import Addon from "./addon";
 import Contact from "./contact";
 
+
 const Home = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const Home = () => {
               <h1>INFO</h1>
             </span>
             <span className="text-block">
-              <h3>AWWARDS</h3>
+              <h3>GITHUB</h3>
               <h1>WORK</h1>
             </span>
           </div>

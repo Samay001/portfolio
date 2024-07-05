@@ -1,44 +1,61 @@
 .container-contact {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
-    background: #BFEA88;
-    color: #192928;
-    font-family: "CustomFont1", sans-serif;
+    flex-direction: row;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #BFEA88;
+    text-transform: uppercase;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .contact-content {
-    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.heading-contact {
-    font-size: 5vh;
-    text-transform: uppercase;
+.contact-img {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.contact-img img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.heading-contact h1 {
+    font-family: "CustomFont2", sans-serif;
+    font-size: 14vh;
     font-weight: 800;
-    margin-bottom: 1rem;
-    margin-top: 0;
-    color: #192928;
+    margin: 0.5rem 0;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
+    width: 80%;
     gap: 10px;
 }
 
 .form-input, .form-textarea, .form-button {
     width: 100%;
     padding: 10px;
-    margin: 5px 0;
     border: 1px solid #192928;
     border-radius: 5px;
     box-sizing: border-box;
+    font-family: "CustomFont1", sans-serif;
 }
 
 .form-button {
@@ -52,32 +69,37 @@
     background: #145214;
 }
 
-.contact-img {
-    margin-top: 20px;
-}
-
-.contact-img img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 10px;
-}
-
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .container-contact {
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
     }
 
     .contact-content {
-        max-width: 50%;
-        text-align: left;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .contact-img {
-        max-width: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+    }
+
+    .heading-contact h1 {
+        font-size: 10vh;
+    }
+
+    .form-input, .form-textarea, .form-button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading-contact h1 {
+        font-size: 8vh;
+    }
+
+    .form-input, .form-textarea, .form-button {
+        padding: 6px;
     }
 
     .contact-img img {
