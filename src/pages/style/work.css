@@ -23,3 +23,21 @@
     margin-top:0;
     font-family: "CustomFont1", sans-serif;
 }
+
+@media (max-width: 1200px) {
+    .work-text-box h1 {
+        font-size: 60vw;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .work-text-box h1 {
+        font-size: 60vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .work-text-box h1 {
+        font-size: 60vw;
+    }
+  }

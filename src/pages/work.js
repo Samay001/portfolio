@@ -6,8 +6,7 @@ const work = () => {
     <div className='container-work'>
         <div className='work-text-box'>
             <h1>WORK</h1>
-        </div>
-        
+        </div>  
     </div>
   )
 }
