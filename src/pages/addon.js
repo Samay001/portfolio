@@ -10,7 +10,7 @@ const addon = () => {
       </div>
       <div className="addon-text-box">
         <h1>
-          OFFERING CREATIVE-LED DESIGN AND DEVELOPMENT FOR AMBITIOUS BRANDS THAT
+          OFFERING CREATIVE DESIGN AND DEVELOPMENT FOR AMBITIOUS BRANDS THAT
           WANT TO EXPAND AND CREATE.
         </h1>
         <h2>Lasting Change</h2>

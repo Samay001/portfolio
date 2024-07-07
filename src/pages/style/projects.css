@@ -27,24 +27,42 @@
   flex: 1;
 }
 
+.project-name h1{
+  text-align: start;
+}
 .links {
   display: flex;
   gap: 1rem;
 }
 
 .links button {
-  padding: 0.5rem 1rem;
-  background-color: #192928;
-  color: #fff;
+  position: relative;
   border: none;
+  background: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+  font-family: "CustomFont1", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
-.links button:hover {
-  background-color: #344a5f;
+.links button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: #192928;
+  transition: width 0.3s ease-in-out;
 }
 
+.links button:hover::after {
+  width: 100%;
+}
 /* Video Preview Styling */
 .video-preview {
   position: absolute;

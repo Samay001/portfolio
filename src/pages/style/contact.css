@@ -62,8 +62,8 @@
 .form-textarea::placeholder {
   font-family: "CustomFont2", sans-serif;
   font-weight: 900;
-  letter-spacing: 2px;
-  color: #555;
+  letter-spacing: 3px;
+  color: #192928;
   opacity: 1; /* Firefox */
 }
 
