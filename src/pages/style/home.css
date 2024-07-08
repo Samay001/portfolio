@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   display: flex;
   flex-direction: column;
