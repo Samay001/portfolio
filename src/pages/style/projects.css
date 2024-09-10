@@ -114,4 +114,10 @@
     font-size: 2rem;
     text-align: left;
   }
+
+  .video-preview{
+    width: 400px;
+    height: 300px;
+    left:50%;
+  }
 }

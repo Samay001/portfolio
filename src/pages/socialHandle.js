@@ -3,6 +3,7 @@ import './style/socialHandle.css';
 import img from '../assets/images/footer-img.png';
 
 const SocialHandle = () => {
+  
   return (
     <div className='container-social'>
       <div className='main-heading'>
