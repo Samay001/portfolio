@@ -16,6 +16,12 @@ const Projects = () => {
       video: urbansnitch,
     },
     {
+      name: "Concsious Chemist",
+      live: "https://conscious-chemist.vercel.app",
+      github: "https://github.com/Samay001/conscious-chemist",
+      video: goland,
+    },
+    {
       name: "GO-LAND",
       live: "https://go-food-rho.vercel.app/",
       github: "https://github.com/Samay001/Go-Food",
