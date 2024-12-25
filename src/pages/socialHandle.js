@@ -34,7 +34,7 @@ const SocialHandle = () => {
               </a>
             </div>
             <div className='social-link'>
-              <a href='https://drive.google.com/file/d/1cJeL_OGvQrGRz8OFMgq9VgYpjP7Fo0wT/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+              <a href='https://drive.google.com/file/d/1UHAt3HJXBzmc1ukQ3q8q1xERJJR3gB2Y/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
                 <i class="fa fa-link" aria-hidden="true"></i>
                 <span>RESUME.</span>
               </a>
